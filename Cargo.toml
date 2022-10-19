@@ -1,0 +1,13 @@
+[package]
+name = "rsim-pipe"
+version = "0.1.0"
+authors = ["echostone"]
+edition = "2021"
+description = "A rust-y implementation of RV64G simulator, PIPE version."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quark = "1.1"
+colored = "2.0"
+clap = { version = "4.0", features = ["derive"] }
